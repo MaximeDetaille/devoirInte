@@ -1,0 +1,76 @@
+.carousel .img1 {
+  background-image: url("http://lorempixel.com/1200/350/food/4");
+  background-size: cover; }
+.carousel .img2 {
+  background-image: url("http://lorempixel.com/1200/350/food/3");
+  background-size: cover; }
+.carousel .img3 {
+  background-image: url("http://lorempixel.com/1200/350/food/2");
+  background-size: cover; }
+.carousel .img4 {
+  background-image: url("http://lorempixel.com/1200/350/food/1");
+  background-size: cover; }
+.carousel .carousel-item h1, .carousel .carousel-item p {
+  margin-top: 100px;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); }
+
+.block-1 {
+  padding-top: 20px; }
+  .block-1 .block-middle {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #ee6e73;
+    width: 100%;
+    border-radius: 3px; }
+    .block-1 .block-middle .division {
+      color: #FEFEFE; }
+      .block-1 .block-middle .division h5 {
+        font-weight: 200; }
+      .block-1 .block-middle .division p {
+        font-weight: 200;
+        font-size: 20px; }
+    .block-1 .block-middle .divisionMiddle {
+      border-left: 1px #FEFEFE solid;
+      border-right: 1px #FEFEFE solid; }
+    .block-1 .block-middle .img {
+      width: 100px;
+      height: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+
+.block-2 {
+  margin-top: 200px;
+  margin-bottom: 200px; }
+  .block-2 .dot {
+    width: 25px;
+    height: 25px; }
+  .block-2 .myCard {
+    border: 1px #ee6e73 solid;
+    border-radius: 3px;
+    padding: 0;
+    width: 23% !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important; }
+    .block-2 .myCard img {
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px; }
+    .block-2 .myCard h5 {
+      font-size: 20px;
+      font-weight: 300; }
+
+@media screen and (max-width: 992px) {
+  .block-1 .division {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .block-1 .divisionMiddle {
+    display: inline-block;
+    border-left: none !important;
+    border-right: none !important; }
+
+  .block-2 .myCard {
+    width: 48% !important;
+    margin: 1% !important; } }
+
+/*# sourceMappingURL=style.css.map */

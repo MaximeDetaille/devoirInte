@@ -1,0 +1,124 @@
+$lightRed : #ee6e73;
+$smoothWhite : #FEFEFE;
+
+.carousel
+{
+	.img1{
+		background-image: url('http://lorempixel.com/1200/350/food/4');
+		background-size: cover;
+	}
+
+	.img2{
+		background-image: url('http://lorempixel.com/1200/350/food/3');
+		background-size: cover;
+	}
+
+	.img3{
+		background-image: url('http://lorempixel.com/1200/350/food/2');
+		background-size: cover;
+	}
+
+	.img4{
+		background-image: url('http://lorempixel.com/1200/350/food/1');
+		background-size: cover;
+	}
+
+	.carousel-item{
+		
+		h1,p{
+			margin-top: 100px;
+			text-shadow: 0px 0px 15px rgba(0,0,0, 0.8);
+		}
+	}
+}
+
+.block-1{
+	padding-top:20px;
+
+	.block-middle{
+		margin-top: 50px;
+		margin-bottom: 100px;
+		padding-top:20px;
+		padding-bottom: 10px;
+		background-color: $lightRed;
+		width: 100%;
+		border-radius: 3px;
+
+		.division{
+			color:$smoothWhite;
+
+			h5{
+				font-weight: 200;
+			}
+
+			p{
+				font-weight: 200;
+				font-size: 20px;
+			}
+		}
+
+		.divisionMiddle{
+			border-left: 1px $smoothWhite solid;
+			border-right: 1px $smoothWhite solid;
+		}
+
+		.img{
+			width: 100px;
+			height: 100px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+	}
+}
+
+.block-2{
+	margin-top:200px;
+	margin-bottom:200px;
+
+	.dot{
+		width: 25px;
+		height: 25px;
+	}
+
+	.myCard{
+		border:1px $lightRed solid;
+		border-radius:3px;
+		padding:0;
+		width:23% !important;
+		margin-left: 1% !important;
+		margin-right: 1% !important;
+
+		img{
+			border-top-right-radius: 3px;
+			border-top-left-radius: 3px;
+		}
+
+		h5{
+			font-size: 20px;
+			font-weight: 300;
+		}
+	}
+}
+
+@media screen and (max-width: 992px){
+	.block-1{
+		.division{
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.divisionMiddle{
+			display: inline-block;
+			border-left:none !important;
+			border-right:none !important;
+		}
+	}
+
+	.block-2{
+		.myCard{
+			width: 48% !important;
+			margin:1% !important;
+		}
+	}
+}
